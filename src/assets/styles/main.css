@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.view {
+    @apply bg-[#e7e8f2] min-h-screen flex items-center justify-center;
+    font-family: 'Work Sans', sans-serif;
+}
